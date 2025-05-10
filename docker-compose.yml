@@ -1,0 +1,16 @@
+services:
+  presentation:
+    build: .
+    ports:
+      - "8000:8080"
+    volumes:
+      - ./src:/app/src
+      - ./src/styles/:/app/output/styles
+      - ./output:/app/output
+    # For Linux systems with inotify
+    #tmpfs:
+    #  - /app/revealjs/node_modules
+    # For Mac/Windows
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    working_dir: /app/output

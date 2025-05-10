@@ -1,0 +1,29 @@
+/* Backgroun image */
+.reveal {
+    background-image: url('images/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Semi-transparent slide background */
+.reveal .slides section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Make controls visible against background */
+.reveal .controls {
+    color: white;
+    opacity: 0.8;
+}
+
+/* Progress bar styling */
+.reveal .progress {
+    background: rgba(255, 255, 255, 0.2);
+}
+.reveal .progress span {
+    background: white;
+}

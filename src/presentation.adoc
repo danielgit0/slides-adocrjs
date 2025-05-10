@@ -1,0 +1,19 @@
+= Presentation Template
+
+Author Name
+
+:revealjsdir: /revealjs
+:revealjs_theme: black
+:revealjs_slideNumber: true
+:outfile: index.html
+:customcss: styles/main.css
+
+== Slide 1
+
+* Point 1
+* Point 2
+
+[.stretch]
+== Slide 2
+
+image::https://www.placecats.com/800/400[Kitten]
